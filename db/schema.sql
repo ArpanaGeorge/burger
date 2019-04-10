@@ -9,6 +9,6 @@ CREATE TABLE burgers (
 	burger_name VARCHAR(100) NOT NULL,
 	devoured BOOLEAN DEFAULT false,
   count_eaten int(11) DEFAULT 0,
-  date TIMESTAMP,
+  createdAt TIMESTAMP,
 	PRIMARY KEY (id)
 );
