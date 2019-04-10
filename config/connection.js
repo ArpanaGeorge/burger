@@ -6,8 +6,8 @@ if(process.env.JAWSDB_URL){
   connection = mysql.createConnection(process.env.JAWSDB_URL); // hoisting
 } else{
   connection = mysql.createConnection({
-    port: '8889',
-    host: 'localhost',
+    port: 3306,
+    host: '127.0.0.1',
     user: 'root',
     password: 'Password',
     database: 'burgers_db'
